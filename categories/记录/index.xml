@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>记录 on noting happen</title>
+    <link>https://programerluffy.github.io/categories/%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 记录 on noting happen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>luffy</copyright>
+    <lastBuildDate>Sat, 05 Oct 2019 13:11:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://programerluffy.github.io/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java静态/非静态内部类之间的关系</title>
+      <link>https://programerluffy.github.io/post/forth/</link>
+      <pubDate>Sat, 05 Oct 2019 13:11:24 +0800</pubDate>
+      
+      <guid>https://programerluffy.github.io/post/forth/</guid>
+      <description>Java之中不支持类的多继承，于是创造出了诸如接口，内部类等，模拟实现多继承 类的成员，内部类，与内部类的方法之间的关系，大抵分为以下几种类型</description>
+    </item>
+    
+    <item>
+      <title>我的个人博客终于搭建成功了！</title>
+      <link>https://programerluffy.github.io/post/first/</link>
+      <pubDate>Mon, 22 Jul 2019 17:11:24 +0800</pubDate>
+      
+      <guid>https://programerluffy.github.io/post/first/</guid>
+      <description>虽然只是根据教程一步一步走，但是也走了很多弯路。感谢Codesheep的这个教学视频 还有这位小伙伴的搭建攻略SAquarius 嘛，博客准备好</description>
+    </item>
+    
+  </channel>
+</rss>

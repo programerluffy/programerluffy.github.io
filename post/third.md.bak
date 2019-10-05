@@ -1,0 +1,56 @@
+---
+title: "关于hugo博客提交的小脚本"
+date: 2019-07-25T23:45:24+08:00
+
+categories:
+- 微教程
+tags:
+- 博客搭建
+keywords:
+- 微教程
+- 博客更新
+---
+
+每次上传博客都要使用命令行似乎有些麻烦....然后就开始考虑用QT做一个简单的图形界面出来，刚刚接触QT有些不熟悉，等以后初步掌握再做吧= =
+
+目前就先用这两个bat脚本偷一下懒吧
+
+---
+
+##### 1.生成静态网页和本地预览
+
+ ```
+ @echo off
+ color F0
+ title = 博客推送
+ hugo
+ @start "C:\(Program Files)\(Mozilla Firefox)\firefox.exe" "http://localhost:1313/"
+ hugo server
+ ```
+
+@start 后面引号内的内容需要修改为你自己的浏览器文件地址，路径中带空格的文件夹需要加括号
+
+###### 2.推送到github上并为该次提交添加描述
+
+``` 
+@echo off
+color f0
+title=推送到远端
+cd public
+git add .
+echo 请输入提交描述
+set /p X=
+git commit -m "%X%"
+git pull origin master
+git push -u origin master
+echo 推送成功
+pause
+```
+
+如果你的分支不同需要自行修改第8,9行的pull和push语句 
+
+
+
+#### 注1：以上两段代码复制到文本文件中，并修改文件后缀为.bat即可直接使用
+
+#### 注2：以上两个bat文件需要放在你的博客根目录下使用或者将第2个文件第2行的public补全为完整地址

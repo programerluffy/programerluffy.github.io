@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on noting happen</title>
+    <link>https://programerluffy.github.io/post/</link>
+    <description>Recent content in Posts on noting happen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>luffy</copyright>
+    <lastBuildDate>Sat, 05 Oct 2019 13:11:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://programerluffy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java静态/非静态内部类之间的关系</title>
+      <link>https://programerluffy.github.io/post/forth/</link>
+      <pubDate>Sat, 05 Oct 2019 13:11:24 +0800</pubDate>
+      
+      <guid>https://programerluffy.github.io/post/forth/</guid>
+      <description>Java之中不支持类的多继承，于是创造出了诸如接口，内部类等，模拟实现多继承 类的成员，内部类，与内部类的方法之间的关系，大抵分为以下几种类型</description>
+    </item>
+    
+    <item>
+      <title>关于hugo博客提交的小脚本</title>
+      <link>https://programerluffy.github.io/post/third/</link>
+      <pubDate>Thu, 25 Jul 2019 23:45:24 +0800</pubDate>
+      
+      <guid>https://programerluffy.github.io/post/third/</guid>
+      <description>每次上传博客都要使用命令行似乎有些麻烦&amp;hellip;.然后就开始考虑用QT做一个简单的图形界面出来，刚刚接触QT有些不熟悉，等以后初步掌握</description>
+    </item>
+    
+    <item>
+      <title>我的个人博客终于搭建成功了！</title>
+      <link>https://programerluffy.github.io/post/first/</link>
+      <pubDate>Mon, 22 Jul 2019 17:11:24 +0800</pubDate>
+      
+      <guid>https://programerluffy.github.io/post/first/</guid>
+      <description>虽然只是根据教程一步一步走，但是也走了很多弯路。感谢Codesheep的这个教学视频 还有这位小伙伴的搭建攻略SAquarius 嘛，博客准备好</description>
+    </item>
+    
+    <item>
+      <title>第一次使用hugo和git注意事项</title>
+      <link>https://programerluffy.github.io/post/second/</link>
+      <pubDate>Mon, 22 Jul 2019 17:11:24 +0800</pubDate>
+      
+      <guid>https://programerluffy.github.io/post/second/</guid>
+      <description>Windows 1、hugo下载完之后可以用chocolatey进行安装，自动帮你配置环境变量 下载官方文件，解压之后，将路径设置成环境变量 在命令行中输入“</description>
+    </item>
+    
+  </channel>
+</rss>
