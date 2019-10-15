@@ -159,11 +159,7 @@
     &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;上述结论可以总结成以下表格：&lt;/p&gt;
-
-&lt;p&gt;图片&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
       
     </item>
     
@@ -266,7 +262,7 @@ pause&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
         <description>&lt;p&gt;Windows&lt;br /&gt;
 1、hugo下载完之后可以用chocolatey进行安装，自动帮你配置环境变量   下载官方文件，解压之后，将路径设置成环境变量  在命令行中输入“git” &amp;ldquo;hugo version&amp;rdquo;检验是否安装成功&lt;br /&gt;
 2、命令行中输入 hugo new site blog&lt;br /&gt;
-3、hugo 官网有很多主题可以选择，或者也可以在github寻找习惯的主题  通过git clone 到themes文件夹下&lt;br /&gt;
+3、hugo 官网有很多主题可以选择，或者也可以在github寻找喜欢的主题  通过git clone 到themes文件夹下&lt;br /&gt;
 4、根目录下hugo server -t=你的主题 &amp;ndash;buildDrafts    本地预览 将你的md文档转化成html 通过访问 &lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;  预览&lt;br /&gt;
 5、hugo new post\文章名字.md   使用编辑器修改你的博客内容&lt;br /&gt;
 6、发布博客前需要将Drafts 改为false&lt;br /&gt;
